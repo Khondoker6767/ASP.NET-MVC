@@ -1,0 +1,17 @@
+﻿@model StudentMVCCodeFirst.Models.ViewModels.CourseViewModel
+    <div>
+
+        <br />
+        <h4>Course Details</h4>
+        <table class="table table-bordered" style="width:400px; background-color:darkorange">
+            <tr>
+                <th>Course Id</th>
+                <td>@Html.DisplayFor(s => s.Id)</td>
+            </tr>
+            <tr>
+                <th>Student Name</th>
+                <td>@Html.DisplayFor(s => s.CourseName)</td>
+            </tr>
+
+        </table>
+    </div>
